@@ -18,18 +18,22 @@
 ## 🚀 精選開源專案（Featured Projects）
 
 ### 🏭 嵌入式與產線工具（Embedded & Production Tools）
-- [**nrf-command-line-factory**](https://github.com/opo200tw/nrf-command-line-factory)：工廠端 Nordic nRF52 韌體量產自動化燒錄與測試桌面程式（Go + SEGGER J-Link / nrfutil GUI/CLI）。
-- [**daemon**](https://github.com/opo2000tw/daemon)：輕量級背景常駐服務與行程守護工具（Go）。
+- [**daemon**](https://github.com/opo2000tw/daemon)：輕量級背景常駐服務與行程守護工具（Go）
 
 ### 🤖 AI Agent 治理與開發工程（Agentic AI & Engineering Tools）
-- [**baton**](https://github.com/opo2000tw/baton)：Multi-agent dispatch governance for reliable AI delivery.
-- [**gstack**](https://github.com/opo2000tw/gstack)：Garry Tan 的 Claude Code 15 專屬工具鏈與角色分工套件。
-- [**huashu-design**](https://github.com/opo2000tw/huashu-design)：HTML-native design skill for Claude Code（高保真原型 / 幻燈片 / 動畫）。
-- [**spec-kit**](https://github.com/opo2000tw/spec-kit)：Spec-Driven Development（規格驅動開發）輔助工具套件。
-- [**devspace**](https://github.com/opo2000tw/devspace)：Turn ChatGPT into Codex.
+- [**baton**](https://github.com/opo2000tw/baton)：Multi-agent dispatch governance for reliable AI delivery（多 Agent 派工治理框架）
+- [**devspace**](https://github.com/opo2000tw/devspace)：Turn ChatGPT into Codex
+- [**gstack**](https://github.com/opo2000tw/gstack)：Garry Tan 的 Claude Code 15 專屬工具鏈與角色分工套件
+- [**huashu-design**](https://github.com/opo2000tw/huashu-design)：HTML-native design skill for Claude Code（高保真原型 / 幻燈片 / 動畫）
+- [**learn-docker-and-k8s**](https://github.com/opo2000tw/learn-docker-and-k8s)：互動式學習 Docker、Linux 與 Kubernetes 之 AI 驅動環境
+- [**spec-kit**](https://github.com/opo2000tw/spec-kit)：Spec-Driven Development（規格驅動開發）輔助工具套件
 
 ### 🌐 網頁與應用專案（Web & Applications）
-- [**waterhanspa**](https://github.com/opo2000tw/waterhanspa)：水涵 SPA 官方形象網頁與預約前端應用（Vue.js）。
+- [**mini-taiwan-pulse**](https://github.com/opo2000tw/mini-taiwan-pulse)：台灣在地即時脈動視覺化與資訊前端
+- [**waterhanspa**](https://github.com/opo2000tw/waterhanspa)：水涵 SPA 官方形象網頁與預約前端應用（Vue.js）
+
+### 🛠️ 工具與系統組件（Tools & Utilities）
+- [**squirrel**](https://github.com/opo2000tw/squirrel)：【鼠鬚管】Rime Input Method Engine for Mac
 
 ---
 
@@ -52,3 +56,9 @@
 - **GitHub 組織**: [https://github.com/opo200tw](https://github.com/opo200tw)
 - **個人 GitHub**: [https://github.com/opo2000tw](https://github.com/opo2000tw)
 - **Email**: `opo2000tw@mail.fcu.edu.tw`
+
+---
+
+## ⚙️ 自動同步機制（GitHub Actions Automation）
+
+本主頁目錄由 **GitHub Actions** 搭配 `generate_readme.py` 定期巡檢並自動同步維護。
