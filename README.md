@@ -18,7 +18,7 @@
 ## 🚀 精選開源專案（Featured Projects）
 
 ### 🏭 嵌入式與產線工具（Embedded & Production Tools）
-- [**nrf-command-line-factory**](https://github.com/opo2000tw/nrf-command-line-factory)：工廠端 Nordic nRF52 韌體量產自動化燒錄與測試桌面程式（Go + SEGGER J-Link / nrfutil GUI/CLI）。
+- [**nrf-command-line-factory**](https://github.com/opo200tw/nrf-command-line-factory)：工廠端 Nordic nRF52 韌體量產自動化燒錄與測試桌面程式（Go + SEGGER J-Link / nrfutil GUI/CLI）。
 - [**daemon**](https://github.com/opo2000tw/daemon)：輕量級背景常駐服務與行程守護工具（Go）。
 
 ### 🤖 AI Agent 治理與開發工程（Agentic AI & Engineering Tools）
