@@ -55,7 +55,7 @@
 
 - **GitHub 組織**: [https://github.com/opo200tw](https://github.com/opo200tw)
 - **個人 GitHub**: [https://github.com/opo2000tw](https://github.com/opo2000tw)
-- **Email**: `opo2000tw@mail.fcu.edu.tw`
+- **Email**: `opo2000tw@gmail.com`
 
 ---
 
