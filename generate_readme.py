@@ -1,3 +1,17 @@
+# ==============================================================================
+# GitHub Profile Generator for @opo2000tw
+#
+# 【展示策略與安全規範說明 (Portfolio Showcase & Security Policy)】
+# 1. 核心產品韌體保護（Private Repository Security）:
+#    - 組織 @opo200tw 底下的商業產品韌體正本（如 UM-GPM4-AnimalSpeaker, UM-GPM7-camera,
+#      UM-ND52L15 系列生醫韌體、原廠晶片 SDK 等）均設定為 🔒 Private。
+# 2. 業界標準履歷展示（Industry Standard Architecture Showcase）:
+#    - 個人首頁保留核心架構簡介與定位，用以展示完整的嵌入式韌體與全端工程實力；
+#    - 外部訪客點擊私有專案連結時，GitHub 會自動回傳 404，確保商業原始碼 100% 安全保密。
+# 3. 個人原創專案過濾（Exclude External Forks）:
+#    - 腳本嚴格排除所有外部 Fork 專案（is_fork == True），僅列出真正由作者自主開發的原創庫。
+# ==============================================================================
+
 import json
 import os
 import sys
@@ -26,7 +40,7 @@ def main():
         is_fork = r.get("isFork", False)
         url = r.get("url", f"https://github.com/opo2000tw/{name}")
 
-        # 嚴格排除：Fork 專案、已歸檔專案、個人主頁專用庫
+        # 嚴格排除：外部 Fork 專案、已歸檔專案、個人主頁專用庫
         if is_fork or is_archived or name in ignored_names:
             continue
 
@@ -48,7 +62,7 @@ def main():
         "",
         "## 🏢 核心架構與研發專案（Core Projects @ opo200tw）",
         "",
-        "主要產品韌體與系統架構均託管於 [**@opo200tw**](https://github.com/opo200tw) 組織：",
+        "> *註：主要商業產品韌體與系統架構均託管於 [**@opo200tw**](https://github.com/opo200tw) 組織（核心代碼為 Private 私有保護，對外展示架構與技術棧）*",
         "",
         "- 🦌 **[UM-GPM4-AnimalSpeaker](https://github.com/opo200tw/UM-GPM4-AnimalSpeaker)**：凌通 GPM4 晶片雙機無線通訊與音訊播放產品韌體正本（HandUnit + Speaker + Bootloader + BLE）。",
         "- 📷 **[UM-GPM7-camera](https://github.com/opo200tw/UM-GPM7-camera)**：GeneralPlus GPM7 平台之智慧相機主程式韌體（熱成像 + TOF 雷射測距 + RTSP + TUTK P2P）。",
@@ -103,7 +117,7 @@ def main():
     with open("README.md", "w", encoding="utf-8") as f:
         f.write(output_content)
 
-    print("Generated clean README.md for opo2000tw (excluding all forks) successfully.")
+    print("Generated README.md for opo2000tw successfully.")
 
 if __name__ == "__main__":
     main()

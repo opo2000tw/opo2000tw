@@ -6,7 +6,7 @@
 
 ## 🏢 核心架構與研發專案（Core Projects @ opo200tw）
 
-主要產品韌體與系統架構均託管於 [**@opo200tw**](https://github.com/opo200tw) 組織：
+> *註：主要商業產品韌體與系統架構均託管於 [**@opo200tw**](https://github.com/opo200tw) 組織（核心代碼為 Private 私有保護，對外展示架構與技術棧）*
 
 - 🦌 **[UM-GPM4-AnimalSpeaker](https://github.com/opo200tw/UM-GPM4-AnimalSpeaker)**：凌通 GPM4 晶片雙機無線通訊與音訊播放產品韌體正本（HandUnit + Speaker + Bootloader + BLE）。
 - 📷 **[UM-GPM7-camera](https://github.com/opo200tw/UM-GPM7-camera)**：GeneralPlus GPM7 平台之智慧相機主程式韌體（熱成像 + TOF 雷射測距 + RTSP + TUTK P2P）。
